@@ -1,0 +1,17 @@
+version: '2.1'
+
+services:
+  eurekaserver:
+    build: eurekaserver
+
+  clientone:
+    build: clientone
+    ports:
+      - 6000:6000
+
+  clienttwo:
+    build: clienttwo
+    ports:
+      - 7000:7000
+
+
