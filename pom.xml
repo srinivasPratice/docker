@@ -36,7 +36,7 @@
     </dependencyManagement>
 
     <modules>
-        <module>eurekaserver</module>
+        <module>server</module>
         <module>clientone</module>
         <module>clienttwo</module>
     </modules>
